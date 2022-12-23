@@ -85,7 +85,7 @@ function searchWord(request, response) {
 
   
 
-if(words[word] != "AtomicIsVerySexyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"){
+if(words[word] != "Admin key goes here"){
   if(!isLessThan24HourAgo(words[word])){
     delete words[word];
   var data = JSON.stringify(words, null, 2);
